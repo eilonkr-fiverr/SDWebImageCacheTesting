@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     typealias Snapshot = NSDiffableDataSourceSnapshot<Section, Item.ID>
     
     /// Set to true to visualize the data source's `reloadItems` pattern
-    static let delayedCellConfiguration = true
+    static let delayedCellConfiguration = false
     
     enum Section {
         case main
